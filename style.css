@@ -1,0 +1,41 @@
+#newNoteButton {
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.noteDiv {
+  background-color: #4CAF50;
+  border-radius: 10px;
+  padding: 25px;
+  display: inline-block;
+  width: 25%;
+  min-height: 150px;
+  min-width: 150px;
+  margin: 10px;
+  position: relative;
+}
+
+.textNote {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  max-width: 75%;
+}
+
+.delButton {
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  background-color: #4CAF50;
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+}
