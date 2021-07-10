@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body style='background-color: #f1f1f1;'>
+    <div class="header">
+      <p id="logo">WebNotes</p>
+    </div>
     <button id="newNoteButton">+</button>
+    <div id="modal" class="displayOff">
+      <div class="modalWindow">
+        <div class="modalHeader">
+          <p>Новая заметка</p>
+        </div>
+        <div class="modalBody">
+          <textarea id="textNewNote" rows="4" cols="40"></textarea>
+        </div>
+        <div class="modalFooter">
+          <button class="modalButton" onclick='saveNote()'>ОК</button>
+          <button class="modalButton" onclick='cancel()'>Отмена</button>
+        </div>
+      </div>
+    </div>
     <br>
     <script src="script.js"></script>
   </body>
