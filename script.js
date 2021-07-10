@@ -14,7 +14,7 @@ button.onclick = () => {
   note.setAttribute('class', 'textNote');
   note.innerHTML = newNote;
   deleteButton = document.createElement('button');
-  deleteButton.innerHTML = 'x';
+  deleteButton.innerHTML = '&times';
   deleteButton.setAttribute('class', 'delButton');
   deleteButton.setAttribute('onclick', `delNote(${noteNum})`);
   noteNum += 1;
